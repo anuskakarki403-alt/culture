@@ -1,0 +1,22 @@
+     nav {
+            height: 100vh;                
+            width: 150px;                  
+            background: black;              
+ position: fixed;
+            display: flex;
+            flex-direction: column;        
+            padding-top: 50px;
+        }
+        nav a {
+            text-align: center;
+            text-decoration:none;
+            font-size: 25px;
+            color: rgb(217, 215, 215);
+            padding:40px 20px ;
+        }
+        nav a:hover {
+            background-color: darkgrey;
+        }
+             body {
+            margin: 0px;
+}
