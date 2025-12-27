@@ -8,14 +8,15 @@
        
     </style>
 </head>
+
 <body>
-     <nav>
-        <a   href="home-page.html">Home</a>
-        <a href="culture.html">Traditions</a>
-        <a href="festivals-page.html">Festivals</a>
-        <a href="heritage-page.html">Heritage & History</a>
-        <a href="clothing-page.html">Clothing</a>
-        <a href="About-page.html">About</a>
-    </nav>
+    <div id="navbar"></div>
+  <script>
+   fetch('/assets/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+         });
+    </script>
 </body>
 </html>
